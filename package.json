@@ -1,0 +1,9 @@
+{
+  "name": "stock-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "node server.js", "test": "node --test test/unit.test.js test/api.test.js",
+    "test:e2e": "python3 test/e2e.py" },
+  "engines": { "node": ">=18" }
+}
